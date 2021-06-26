@@ -12,5 +12,7 @@ namespace DigitalClock
         {
             _layout = layout;
         }
+
+        public char[,] Layout => _layout;
     }
 }
