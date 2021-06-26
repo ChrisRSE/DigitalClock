@@ -13,18 +13,6 @@ namespace DigitalClock
 
         public int Width { get => width; }
         public int Height { get => height; }
-        /*            //Digit Two
-            digit = new char[height, width]
-            {
-            {' ',' ',' ',' ',' ',' '},
-            {' ',' ',' ',' ',' ',' '},
-            {' ',' ',' ',' ',' ',' '},
-            {' ',' ',' ',' ',' ',' '},
-            {' ',' ',' ',' ',' ',' '},
-            {' ',' ',' ',' ',' ',' '},
-            {' ',' ',' ',' ',' ',' '},};
-            AddDigitToList(digits, digit);
-        */
 
         public DigitList()
         {
