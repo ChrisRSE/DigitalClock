@@ -7,7 +7,8 @@ namespace DigitalClock
     {
         static void Main(string[] args)
         {
-
+            Face f = new Face();
+            f.PrintBoard();
         }
     }
 }
