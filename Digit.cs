@@ -8,9 +8,9 @@ namespace DigitalClock
     {
         readonly char[,] _layout;
 
-        public Digit(char[,] layout)
+        public Digit()
         {
-            _layout = layout;
+            _layout = new char[7, 6];
         }
     }
 }
