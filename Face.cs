@@ -38,8 +38,11 @@ namespace DigitalClock
 
         public void PrintBoard()
         {
+            Console.WriteLine("\n\n\n\n\n\n\n\n");
             for(int i = 0; i < height; i++)
             {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("\t\t\t\t");
                 for (int j = 0; j < width; j++)
                 {
                     Console.Write($"{InitialBoard[i,j]}");
