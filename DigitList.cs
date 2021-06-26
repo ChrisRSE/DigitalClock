@@ -11,6 +11,8 @@ namespace DigitalClock
         List<Digit> digits = new List<Digit>();
         char[,] digit;
 
+        public int Width { get => width; }
+        public int Height { get => height; }
         /*            //Digit Two
             digit = new char[height, width]
             {
