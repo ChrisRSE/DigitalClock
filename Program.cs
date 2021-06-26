@@ -7,8 +7,17 @@ namespace DigitalClock
     {
         static void Main(string[] args)
         {
-            Face f = new Face();
-            f.PrintBoard();
+            DisplayTime displayTime = new DisplayTime();
+            DigitList digitList = new DigitList();
+
+            while(true)
+            {
+                displayTime.RefreshTime();
+            }
+
         }
+
+
+
     }
 }
